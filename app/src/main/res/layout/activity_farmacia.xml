@@ -6,4 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".Farmacia_activity">
 
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="Perfil"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="@string/Nombre"
+                tools:text="Nombre" />
+
+            <TextView
+                android:id="@+id/Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Telefonofarmacia" />
+
+        </LinearLayout>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
